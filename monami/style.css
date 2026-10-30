@@ -130,10 +130,11 @@ img {
     display: flex; align-items: center;
     height: 100%;
     font-size: 11px; color: #9b9a9a;
+    gap: 20px;
 }
 .top_menu>ul>li {
     display: flex; align-items: center;
-    gap: 12px;
+    gap: 20px;
 }
 .top_menu>ul>li:nth-child(1):after,
 .top_menu>ul>li:nth-child(2):after {
@@ -164,16 +165,20 @@ nav>ul>li {
     justify-content: center;
     width: 100%;
     position: static;
+    font-size: 17px; color: #303030;
 }
 nav>ul>li:hover {
     font-weight: 700;
 }
-nav>ul>li:hover::after {
+nav>ul>li::after  {
     content: "";
     width: 100%; height: 2px;
     background-color: #c40f39;
     position: absolute;
     left: 0; bottom: 0;
+}
+nav > ul > li:hover::after {
+  opacity: 1;
 }
 .menu02 {
     position: absolute;
