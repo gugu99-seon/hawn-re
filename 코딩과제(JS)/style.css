@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: 0;
+    background-color: #eee;
+    color: #000;
+}
+
+button.active {
+    border: 0;
+    background-color: green;
+    color: white;
+}
